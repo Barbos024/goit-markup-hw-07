@@ -1,0 +1,13 @@
+.company-link-a:hover .overlay,
+.company-link-a:focus .overlay {
+  transform: translateY(0);
+}
+.company-link-a:hover,
+.company-link-a:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  display: block;
+}
+.service {
+    color: var(--alt-text-cl);
+  }
